@@ -29,7 +29,7 @@ This project is part of a complete application involving backend, frontend and m
 Soon
 <!-- ![GoBarber GIF](imgs/gobarber.gif) -->
 
-<br />
+<!-- <br /> -->
 
 ## 📸 Preview
 Soon
@@ -79,4 +79,4 @@ $ yarn start
 
 ---
 
-Made with 💜 by Francisco Vaz 👋 [See my linkedin](https://www.linkedin.com/in/francisco-vaz/)
+Made with 💜 by Francisco Vaz 👋  [See my linkedin](https://www.linkedin.com/in/francisco-vaz/)
