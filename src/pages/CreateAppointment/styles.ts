@@ -25,6 +25,8 @@ export const Header = styled.View`
   align-items: center;
 `;
 
+Header.displayName = 'CreateAppointmentHeader';
+
 export const BackButton = styled.TouchableOpacity``;
 
 export const HeaderTitle = styled.Text`
