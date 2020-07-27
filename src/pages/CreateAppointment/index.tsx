@@ -59,6 +59,7 @@ const CreateAppointment: React.FC = () => {
   const [selectedProvider, setSelectedProvider] = useState(
     routeParams.providerId,
   );
+  console.log('Route Params test: ', routeParams);
 
   useEffect(() => {
     api.get('providers').then(response => {
