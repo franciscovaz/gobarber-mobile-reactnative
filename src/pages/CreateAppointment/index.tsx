@@ -132,6 +132,7 @@ const CreateAppointment: React.FC = () => {
   }, [navigate, selectedDate, selectedHour, selectedProvider]);
 
   const morningAvailability = useMemo(() => {
+    console.log('testing filter');
     return availability
       .filter(({ hour }) => hour < 12)
       .map(({ hour, available }) => {
