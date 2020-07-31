@@ -136,6 +136,7 @@ const Profile: React.FC = () => {
                 placeholder="Senha atual"
                 textContentType="newPassword"
                 returnKeyType="next"
+                containerStyle={{ marginTop: 16 }}
                 onSubmitEditing={() => {
                   passwordInputRef.current?.focus();
                 }}
