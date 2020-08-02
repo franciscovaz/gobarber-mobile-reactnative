@@ -104,7 +104,6 @@ const Profile: React.FC = () => {
         Alert.alert('Perfil atualizado com sucesso!');
 
         navigation.goBack();
-        // navigation.goBack();
       } catch (err) {
         if (err instanceof Yup.ValidationError) {
           const errors = getValidationErrors(err);
